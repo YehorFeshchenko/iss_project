@@ -1,0 +1,1 @@
+Go is designed to enable developers to rapidly develop scalable and secure web applications. Go ships with an easy to use, secure and performant web server and includes it own web templating library. Go has excellent support for all of the latest technologies from HTTP/2, to databases like MySQL, MongoDB and Elasticsearch.

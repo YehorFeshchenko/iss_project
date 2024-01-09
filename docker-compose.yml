@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  indexing-app:
+    build: ./indexing_task
+    volumes:
+      - ./data:/app/data
+    command: /app/data/example1.txt /app/data/example2.txt
+
+  query-app:
+    build: ./query_task
+    volumes:
+      - ./data:/app/data
+    command: /query developers -i /app/data/index -n /app/data/filenames
